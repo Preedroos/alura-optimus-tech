@@ -1,0 +1,15 @@
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+}
+
+.btn-transparent {
+  color: var(--color-gray-500);
+  font-weight: 500;
+}
+
+.btn-filled {
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+  background-color: var(--color-primary);
+}
