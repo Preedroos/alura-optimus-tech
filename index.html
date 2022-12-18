@@ -9,39 +9,53 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="header__container">
-        <div class="header__logo">
+    <header class="navbar">
+      <div class="container navbar__container">
+        <div class="navbar__logo">
           <img src="assets/images/logo.svg" alt="Logomarca da Optimus Tech" />
           <img
-            class="header__logo-text"
+            class="navbar__logo-text"
             src="assets/images/logo-text.svg"
             alt="Logotipo da Optimus Tech"
           />
         </div>
-        <nav class="header__nav">
-          <input id="header__menu" type="checkbox" />
-          <label class="header__menu-bg" for="header__menu"><span class="header__menu"></span></label>
-          <ul class="header__nav-list">
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#home">Home</a>
+        <nav class="navbar__nav">
+          <input id="navbar__menu" type="checkbox" />
+          <label class="navbar__menu-bg" for="navbar__menu"
+            ><span class="navbar__menu"></span
+          ></label>
+          <ul class="navbar__nav-list">
+            <li class="navbar__nav-item">
+              <a class="navbar__nav-link" href="#home">Home</a>
             </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#products">Produtos</a>
+            <li class="navbar__nav-item">
+              <a class="navbar__nav-link" href="#products">Produtos</a>
             </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#resources">Recursos</a>
+            <li class="navbar__nav-item">
+              <a class="navbar__nav-link" href="#resources">Recursos</a>
             </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#about">Sobre nós</a>
+            <li class="navbar__nav-item">
+              <a class="navbar__nav-link" href="#about">Sobre nós</a>
             </li>
           </ul>
         </nav>
-        <div class="header__register">
+        <div class="navbar__register">
           <a class="btn btn-transparent" href="">Entrar</a>
           <a class="btn btn-filled" href="">Cadastrar</a>
         </div>
       </div>
     </header>
+
+    <section class="header">
+      <div class="container header__container">
+        <span class="header__span">Sobre nós</span>
+        <h1 class="header__title">Por que somos diferentes?</h1>
+        <p class="header__content">
+          Nós focamos nos detalhes de tudo que fazemos. Tudo para ajudar as
+          empresas de todo o mundo a se concentrarem naquilo que é realmente
+          importante para elas.
+        </p>
+      </div>
+    </section>
   </body>
 </html>
