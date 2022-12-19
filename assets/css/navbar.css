@@ -40,10 +40,6 @@
   gap: 12px;
 }
 
-.teset {
-  display: none;
-}
-
 @media screen and (max-width: 1024px) {
   .navbar__nav {
     margin-right: 0;
@@ -102,8 +98,4 @@
   .navbar__menu-bg {
     display: inline-block;
   }
-/* 
-  #navbar__menu:checked ~ .navbar__menu-bg {
-    background-color: var(--color-primary);
-  } */
 }
