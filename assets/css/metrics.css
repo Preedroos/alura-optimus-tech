@@ -4,6 +4,7 @@
   align-items: flex-start;
   gap: 32px;
   flex-wrap: wrap;
+  padding-bottom: 96px;
 }
 
 .metrics__highlight {
